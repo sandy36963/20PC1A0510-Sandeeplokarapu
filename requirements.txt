@@ -1,0 +1,11 @@
+mss
+Pillow
+opencv-python
+pytesseract
+sounddevice
+soundfile
+faster-whisper
+requests
+pyautogui
+pynput
+pyyaml

@@ -1,0 +1,11 @@
+{
+  "name": "OpenEditorTypeSave",
+  "steps": [
+    {"action": "open_app", "args": {"cmd": "gedit"}},
+    {"action": "wait_for_text", "args": {"text": "Untitled", "timeout_sec": 10}},
+    {"action": "type_text", "args": {"text": "Hello, AGI Assistant!"}},
+    {"action": "hotkey", "args": {"keys": ["ctrl", "s"]}},
+    {"action": "type_text", "args": {"text": "demo.txt"}},
+    {"action": "press", "args": {"key": "enter"}}
+  ]
+}
